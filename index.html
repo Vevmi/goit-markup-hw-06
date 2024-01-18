@@ -32,6 +32,11 @@
             </li>
             <li><a class="link menu-item" href="">Contacts</a></li>
           </ul>
+          <button type="button" class="mobile-burger">
+            <svg class="burger-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-burger"></use>
+            </svg>
+          </button>
         </nav>
         <address class="contacts">
           <ul class="list contacts-list">
@@ -454,6 +459,7 @@
                 name="user-name"
                 id="user-name"
                 type="text"
+                required
               />
               <svg class="input-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-person"></use>
@@ -484,6 +490,7 @@
                 name="user-email"
                 id="user-email"
                 type="email"
+                required
               />
               <svg class="input-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-email"></use>
@@ -525,6 +532,51 @@
           <button class="form-submit-button">Send</button>
         </form>
       </div>
+    </div>
+
+    <div class="mobile-modal">
+      <button class="mobile-close-modal-button">
+        <svg class="mobile-close-modal-button-icon" width="8" height="8">
+          <use href="./images/icons.svg#icon-x-close"></use>
+        </svg>
+      </button>
+      <ul class="list mobile-modal-menu-list">
+        <li><a class="mobile-modal-menu-list-item link current-mobile" href="">Studio</a></li>
+        <li><a class="mobile-modal-menu-list-item link" href="">Portfolio</a></li>
+        <li><a class="mobile-modal-menu-list-item link" href="">Contacts</a></li>
+      </ul>
+      <adress class="mobile-contacts">
+        <ul class="mobile-contacts-list list">
+          <li><a class="mobile-contacts-list-item link current-mobile"  href=""></a>+11 (000) 111-11-11</li>
+          <li><a class="mobile-contacts-list-item link"  href=""></a>info@devstudio.com</li>
+        </ul>
+      </adress>
+      <ul class="socials-mobile-modal-list list">
+        <li class="socials-mobile-modal">
+          <a class="socials-mobile-modal-link link" href=""
+            ><svg class="s-three-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-instagram"></use></svg
+          ></a>
+        </li>
+        <li class="socials-mobile-modal">
+          <a class="socials-mobile-modal-link link" href=""
+            ><svg class="s-three-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-twitter"></use></svg
+          ></a>
+        </li>
+        <li class="socials-mobile-modal">
+          <a class="socials-mobile-modal-link link" href=""
+            ><svg class="s-three-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-facebook"></use></svg
+          ></a>
+        </li>
+        <li class="socials-mobile-modal">
+          <a class="socials-mobile-modal-link link" href=""
+            ><svg class="s-three-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-linkedin"></use></svg
+          ></a>
+        </li>
+      </ul>
     </div>
   </body>
 </html>
