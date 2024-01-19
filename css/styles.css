@@ -378,7 +378,7 @@ p {
 /*======= PORTFOLIO SECTION ONE =======*/
 
 .portfolio-section-one {
-  padding: 96px 0 120px 0;
+  padding: 96px 0;
 }
 .port-nav {
   display: flex;
@@ -890,13 +890,15 @@ footer {
   }
 
   .section-hero {
-    height: 436px;
     padding: 112px 0;
-    width: 100%;
   }
   .section-one-list {
     flex-wrap: wrap;
     row-gap: 72px;
+  }
+
+  .sect-one-text {
+    font-weight: 500;
   }
   .icons-s-one {
     display: none;
@@ -994,7 +996,6 @@ footer {
     padding: 0 16px;
   }
   .section-hero {
-    height: 436px;
     padding: 72px 0px;
   }
   .main-header {
@@ -1202,5 +1203,16 @@ footer {
   .header-box {
     padding-bottom: 17.5px;
     padding-top: 17.5px;
+  }
+
+  .section-one {
+    padding-top: 96px;
+  }
+  footer {
+    padding-top: 96px;
+  }
+
+  .hero-button {
+    margin-top: 72px;
   }
 }
